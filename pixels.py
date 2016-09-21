@@ -41,10 +41,6 @@ class pixel:
         return "(" + str(self.getR()) + ", " + str(self.getG()) + ", " + \
                 str(self.getB()) + ")"
 
-#############################################################################
-###            YOUR CODE GOES BETWEEN THESE TWO BLOCK COMMENTS            ###
-###vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv###
-
 def averagePixel(pixelList):
     """ @param pixelList: a list of pixels, compute the average pixel:  
         a pixel with average red, average green, and average blue components
@@ -115,13 +111,6 @@ def blur(data):
     
 
     return
-
-
-###^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^###
-###          YOUR CODE ABOVE MUST WORK WITH THE CODE THAT FOLLOWS        ###
-############################################################################
-
-# Don't add any code, except in a function.
 
 def rc(data):
     """ Return a pair: the number of rows and columns of a 2D array """
